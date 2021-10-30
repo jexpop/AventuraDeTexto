@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c24f29f03693841b492f486d55bc7f, type: 3}
+  m_Name: StartRoom
+  m_EditorClassIdentifier: 
+  description: "Despiertas en una habitaci\xF3n raruna. LLena de telara\xF1as y velas
+    parpadeantes. Sientes el fr\xEDo y el sonido de cadenas ... o eso crees."
+  roomName: "Habitaci\xF3n Inicial"
+  exits:
+  - keyString: Puerta norte
+    exitDescription: Entras en la puerta norte
+    valueRoom: {fileID: 11400000, guid: f728360e2a9f31341a661edc0cdaa363, type: 2}
