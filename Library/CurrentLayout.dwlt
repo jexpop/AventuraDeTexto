@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 368}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -139,10 +139,10 @@ MonoBehaviour:
     y: 30
     width: 2544
     height: 931
-  m_MinSize: {x: 509, y: 318}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 507, y: 318}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 51
+  controlID: 34
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 318}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 52
+  controlID: 35
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,10 +189,10 @@ MonoBehaviour:
     y: 0
     width: 1902
     height: 557
-  m_MinSize: {x: 206, y: 44}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 204, y: 44}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 53
+  controlID: 36
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d00b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: a0f9ffff222a00002c2a0000
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -707,20 +707,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts
+    - Assets/_Scripts/ScriptableObjects/Rooms
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/_Scripts
+  - Assets/_Scripts/ScriptableObjects/Rooms
   m_LastFoldersGridSize: 67
   m_LastProjectPath: D:\PROGRAMACION\UNITY\Proyectos\Cursos y pruebas\AventuraDeTexto
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b2280000
-    m_LastClickedID: 10418
-    m_ExpandedIDs: 0000000098270000b22800006829000000ca9a3b
+    m_SelectedIDs: 080b0000
+    m_LastClickedID: 2824
+    m_ExpandedIDs: 00000000d2090000ec0a0000a20b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 392}
     m_SelectedIDs: 2a0d0000
     m_LastClickedID: 3370
-    m_ExpandedIDs: 0000000098270000b228000068290000
+    m_ExpandedIDs: 00000000d2090000ec0a0000a20b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

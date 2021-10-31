@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\Exit.cs" />
     <Compile Include="Assets\_Scripts\GameController.cs" />
+    <Compile Include="Assets\_Scripts\Go.cs" />
+    <Compile Include="Assets\_Scripts\InputAction.cs" />
     <Compile Include="Assets\_Scripts\Room.cs" />
     <Compile Include="Assets\_Scripts\RoomNavigation.cs" />
     <Compile Include="Assets\_Scripts\TextInput.cs" />

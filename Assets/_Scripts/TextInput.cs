@@ -20,7 +20,7 @@ public class TextInput : MonoBehaviour
         userInput = userInput.ToLower();
         controller.LogStringWithReturn(userInput);
 
-        /*char[] delimiterCharacters = { ' ' };
+        char[] delimiterCharacters = { ' ' };
         string[] separatedInputWords = userInput.Split(delimiterCharacters);
 
         for (int i = 0; i < controller.inputActions.Length; i++)
@@ -30,7 +30,7 @@ public class TextInput : MonoBehaviour
             {
                 inputAction.RespondToInput(controller, separatedInputWords);
             }
-        }*/
+        }
 
         InputComplete();
 

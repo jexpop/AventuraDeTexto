@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 {
 
     public Text displayText;
-    //public InputAction[] inputActions;
+    public InputAction[] inputActions;
 
     [HideInInspector] public RoomNavigation roomNavigation;
     [HideInInspector] public List<string> interactionDescriptionsInRoom = new List<string>();
@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
 
     public void DisplayRoomText()
     {
-        //ClearCollectionsForNewRoom();
+        ClearCollectionsForNewRoom();
 
         UnpackRoom();
 
@@ -50,12 +50,12 @@ public class GameController : MonoBehaviour
     {
         roomNavigation.UnpackExitsInRoom();
     }
-    /*
+    
     void ClearCollectionsForNewRoom()
     {
         interactionDescriptionsInRoom.Clear();
         roomNavigation.ClearExits();
-    }*/
+    }
 
     public void LogStringWithReturn(string stringToAdd)
     {
