@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: flute
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  noun: flauta
+  description: rama agujereada
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 678f371f43f90eb4288a6315a1bf6e44, type: 2}
+    textResponse: Es una flauta
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 5d0c1ad792e4d9e4fb4a065b33e393e4, type: 2}
+    textResponse: Tienes una flauta
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 7c42c7837af58eb4cbfeb9df94395216, type: 2}
+    textResponse: Usas la flauta
+    actionResponse: {fileID: 11400000, guid: a92dff529c6413d4d8296189615dcde7, type: 2}

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: TreasureRoom
   m_EditorClassIdentifier: 
   description: Hay un tesoro
-  roomName: "Habitaci\xF3n del tesoro"
+  roomName: Treasure Room
   exits:
   - keyString: sur
     exitDescription: Ir al sur
     valueRoom: {fileID: 11400000, guid: 7a52f6e5cb1229048826a496776fcfad, type: 2}
+  interactableObjectsInRoom: []

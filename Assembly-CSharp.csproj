@@ -64,13 +64,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\ActionResponse.cs" />
+    <Compile Include="Assets\_Scripts\ChangeRoomResponse.cs" />
+    <Compile Include="Assets\_Scripts\Examine.cs" />
     <Compile Include="Assets\_Scripts\Exit.cs" />
     <Compile Include="Assets\_Scripts\GameController.cs" />
     <Compile Include="Assets\_Scripts\Go.cs" />
     <Compile Include="Assets\_Scripts\InputAction.cs" />
+    <Compile Include="Assets\_Scripts\InteractableItems.cs" />
+    <Compile Include="Assets\_Scripts\InteractableObjects.cs" />
+    <Compile Include="Assets\_Scripts\Interaction.cs" />
+    <Compile Include="Assets\_Scripts\Inventory.cs" />
     <Compile Include="Assets\_Scripts\Room.cs" />
     <Compile Include="Assets\_Scripts\RoomNavigation.cs" />
+    <Compile Include="Assets\_Scripts\Take.cs" />
     <Compile Include="Assets\_Scripts\TextInput.cs" />
+    <Compile Include="Assets\_Scripts\Use.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/PROGRAMACION/UNITY/Proyectos/Cursos y pruebas/AventuraDeTexto/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>

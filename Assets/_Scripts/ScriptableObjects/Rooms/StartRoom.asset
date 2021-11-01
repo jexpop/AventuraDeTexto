@@ -19,3 +19,5 @@ MonoBehaviour:
   - keyString: norte
     exitDescription: Entras en la puerta norte
     valueRoom: {fileID: 11400000, guid: f728360e2a9f31341a661edc0cdaa363, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 2d2f0f44a5697f84d8f18020f3c7fcca, type: 2}
